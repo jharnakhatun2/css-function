@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="heading">CSS Built-in Function</h1>
+    <!-- attr() function -->
+    <div>
+      <h1>1. attr()</h1>
+      <button id="marginBellow" value="Content">View More</button>
+      <p><a href="https://www.w3schools.com">Visit W3Schools</a></p>
+    </div>
+
+    <!-- calc() function -->
+    <div>
+      <h1 class="trigger open">2. calc()</h1>
+      <p id="marginBellow">
+        Use <span style="color: red">calc()</span> to calculate the width of a
+        div element = calc(100% - 500px)
+      </p>
+      <p id="paragraph">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel voluptate
+        aliquid quasi. Sunt inventore incidunt commodi, illum, corrupti quia
+        aliquid quo quis odit, corporis doloribus animi numquam ratione autem
+        placeat earum. Aut magnam molestias necessitatibus quos eligendi nam
+        aspernatur laudantium laborum voluptates possimus saepe, vero neque
+        repellendus placeat quod ratione nemo laboriosam dolorem dolor iure
+        optio doloremque tenetur. Ratione, eligendi quis. Eos, libero. Enim,
+        fuga. Vero quo voluptatem eligendi amet ipsam possimus veniam
+        repellendus sunt vitae, quam similique natus voluptas, unde officia
+        tenetur libero reiciendis earum facilis architecto quasi accusantium
+        consequuntur. Molestias totam numquam, aliquam accusamus deleniti
+        impedit iusto sapiente natus dicta, ut neque enim quod commodi nihil
+        laboriosam.
+      </p>
+      <!-- modal -->
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-modal close">&times;</span>
+          <pre>
+            #paragraph {
+            width: calc(100% - 500px);
+            background: var(--background-color);
+            padding: var(--padding);
+            box-shadow: 1px 3px 20px 1px;
+            color: rgb(230, 230, 230);
+            }
+            </pre
+          >
+        </div>
+      </div>
+    </div>
+    <!-- conic-gradient() -->
+    <div>
+      <h1>3. conic-gradient()</h1>
+      <p id="marginBellow">
+        A <span style="color: red">conic gradient</span> with three colors =
+        background-image: conic-gradient(red, yellow, green);
+      </p>
+      <div id="conic"></div>
+      <!-- modal -->
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close-modal close">&times;</span>
+          <pre>
+            #paragraph {
+            width: calc(100% - 500px);
+            background: var(--background-color);
+            padding: var(--padding);
+            box-shadow: 1px 3px 20px 1px;
+            color: rgb(230, 230, 230);
+            }
+            </pre
+          >
+        </div>
+      </div>
+    </div>
+    <!-- counter() function -->
+    <div style="padding: 10px">
+      <h1>4. counter()</h1>
+      <p id="marginBellow">
+        Use <span style="color: red">counter()</span> to returns the current
+        value of the named counter
+      </p>
+      <h2>Using CSS Counters:</h2>
+      <h3>HTML Tutorial</h3>
+      <h3>CSS Tutorial</h3>
+      <h3>JavaScript Tutorial</h3>
+    </div>
+    <!-- cubic-bezier() function -->
+    <h1>5. cubic-bezier()</h1>
+    <div id="div2" style="margin-top: -10px"></div>
+
+    <!-- hsl() function -->
+    <div>
+      <h1>6. hsl()</h1>
+      <p id="marginBellow">
+        Defines colors using the Hue-Saturation-Lightness model (HSL)
+      </p>
+      <p id="hsl">Green hsl</p>
+      <h1>hsla()</h1>
+      <div class="hsla">
+        <p id="p1">Green</p>
+        <p id="p2">Light green</p>
+        <p id="p3">Dark green</p>
+        <p id="p4">Pastel green</p>
+        <p id="p5">Violet</p>
+        <p id="p6">Pastel violet</p>
+      </div>
+    </div>
+
+    <!-- rgb(), rgba() function -->
+    <div>
+      <h1>7. rgb()</h1>
+      <p id="marginBellow">
+        Defines colors using the Red-Green-Blue model (RGB)
+      </p>
+      <p>RGB colors:</p>
+      <div class="rgb">
+        <p id="p10">Red</p>
+        <p id="p20">Green</p>
+        <p id="p30">Blue</p>
+        <p id="p40">Grey</p>
+        <p id="p50">Yellow</p>
+        <p id="p60">Cerise</p>
+      </div>
+      <h1>rgba()</h1>
+      <p>RGB colors with opacity:</p>
+      <div class="rgba">
+        <p id="p11">Red</p>
+        <p id="p21">Green</p>
+        <p id="p31">Blue</p>
+        <p id="p41">Grey</p>
+        <p id="p51">Yellow</p>
+        <p id="p61">Cerise</p>
+      </div>
+    </div>
+
+    <!-- max(), min() function -->
+    <div>
+      <h1>8. max()</h1>
+      <p>
+        Use max() to set the width of #div5 to whichever value is largest, 50%
+        or 300px
+      </p>
+      <div id="div5">max()</div>
+      <h1>min()</h1>
+      <p>
+        Use min() to set the width of #div6 to whichever value is smallest, 50%
+        or 300px
+      </p>
+      <div id="div6">min()</div>
+    </div>
+
+    <!-- linear-gradient() function -->
+    <div>
+      <h1>9. linear-gradient()</h1>
+      <p>
+        background-image: linear-gradient(direction, color-stop1, color-stop2,
+        ...);
+      </p>
+      <div class="gradient">
+        <div id="div7">linear-gradient()</div>
+        <div id="div8">radial-gradient()</div>
+        <div id="div9">repeating-conic-gradient()</div>
+        <div id="div10">repeating-linear-gradient()</div>
+        <div id="div11">repeating-radial-gradient()</div>
+      </div>
+    </div>
+    <script src="modal.js"></script>
+  </body>
+</html>
